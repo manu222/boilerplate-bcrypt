@@ -8,6 +8,7 @@ const saltRounds                    = 12;
 const myPlaintextPassword           = 'B@cOn!';
 const someOtherPlaintextPassword    = 'pass123';
 const bcrypt                        = require('bcrypt');
+const helmet = require('helmet');
 
 
 
